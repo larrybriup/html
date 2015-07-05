@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--文件类型定义,规定格式 -->
+<!DOCTYPE books SYSTEM "courses.dtd" >
+
+<books>
+	<book id="c1" >
+		<name>coreJava</name>
+		<teacher gender="male">
+			<fname>ren</fname>
+			<lname>Qingsong</lname>
+		</teacher>
+		<duration>
+			<day>23</day>
+		</duration>
+	</book>
+	<book id="c2" room="5">
+		<name>xml</name>
+		<teacher gender="male">
+			<lname>Yushuai</lname>
+			<fname>yan</fname>
+		</teacher>
+		<duration>
+			<day>23</day>
+		</duration>
+	</book>
+	<book id="c3" room="5">
+		<name>xml</name>
+		<teacher gender="female">
+			<fname>ren</fname>
+			<lname>Qingsong</lname>
+		</teacher>
+		<duration>
+			<day>23</day>
+		</duration>
+	</book>
+</books>

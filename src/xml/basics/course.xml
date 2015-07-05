@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--2013郑大杰普课程信息-->
+<!DOCTYPE books[
+  <!ENTITY com "briup">
+  <!ENTITY company SYSTEM "test.txt">
+]>
+<books>
+ <book id="1" room="5">
+   <name>coreJava</name>
+   <teacher><![CDATA[&com;]]>代表:&com;</teacher>
+   <duration>23</duration>
+ </book>
+ <book id="2">
+   <name>&quot;xml&quot;</name>
+   <teacher>shuai</teacher>
+   <duration>18</duration>
+ </book>
+</books>

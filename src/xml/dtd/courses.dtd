@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!ELEMENT books (book)+>
+  <!ELEMENT book (name,teacher,duration)>
+  <!ATTLIST book id ID #REQUIRED
+                 room CDATA #FIXED "5"
+  >
+  <!ELEMENT name ANY>
+  <!ELEMENT teacher (fname|lname)+>
+  <!ATTLIST teacher gender (male|female) #REQUIRED>
+  <!ELEMENT duration (day)>
+  <!ELEMENT day (#PCDATA)>

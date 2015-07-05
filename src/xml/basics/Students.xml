@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><!--PI指令集-->
+<students>
+  <student id="1">
+    <id>1</id>
+    <name>zhang san</name>
+    <age>18</age>
+    <gender>male</gender>
+    <class></class>
+  </student>
+  <student>
+    <id>2</id>
+    <name>li si</name>
+    <age>18</age>
+    <gender>male</gender>
+  </student>
+  <student>
+    <name>wang wu</name>
+  </student>
+  
+</students>

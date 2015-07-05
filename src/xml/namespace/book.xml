@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--命名空间实例  -->
+<books xmlns:book="http://www.baidu.com/book"
+       xmlns:author="http://www.baidu.com/book/author"
+>
+ <book>
+  <book:name>coreJava</book:name>
+  <author>
+    <author:name>briup</author:name>
+  </author>
+ </book>
+</books>
